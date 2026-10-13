@@ -16,7 +16,7 @@ You are a new developer for the Acme Pet Company. You have been given a last min
 
 
 
-### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) `Task 1 — Find the Leaked Partner Token`
+### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) `Task 1 — Find the Leaked GitHub Token`
 
   **Background**
 
