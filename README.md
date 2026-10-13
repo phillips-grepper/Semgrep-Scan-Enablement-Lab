@@ -26,7 +26,8 @@ You are a new developer for the Acme Pet Company. You have been given a last min
 
   - Run a Semgrep scan of the PetFolio repository and find the hard-coded value assigned to `PARTNER_ROSTER_TOKEN`.
 
-  **Task Validation:** Submit the full token value, starting with `ghp_` (40 characters).
+  **Task Validation:** 
+  - Submit the full token value, starting with `ghp_` (40 characters).
 
 
 
@@ -34,13 +35,14 @@ You are a new developer for the Acme Pet Company. You have been given a last min
 
 **Background**
 
-Injection flaws are still among the most common causes of breaches. The pet-search endpoint builds its SQL from request parameters, and Semgrep has flagged it.
+- Injection flaws are still among the most common causes of breaches. The pet-search endpoint builds its SQL from request parameters, and Semgrep has flagged it.
 
 **Your Task**
 
-Find the FastAPI SQL injection finding in `routes_pets.py` and identify the **function that contains the sink**: where the untrusted input reaches the database.
+- Find the FastAPI SQL injection finding in `routes_pets.py` and identify the **function that contains the sink**: where the untrusted input reaches the database.
 
-**Task Validation:** Submit the function name exactly as it appears in the code, without parentheses.
+**Task Validation:** 
+- Submit the function name exactly as it appears in the code, without parentheses.
 
 
 
@@ -48,13 +50,14 @@ Find the FastAPI SQL injection finding in `routes_pets.py` and identify the **fu
 
 **Background**
 
-PetFolio pins an old version of the popular `requests` HTTP library. Semgrep Supply Chain reports several known vulnerabilities in it, but only one is triggered by how PetFolio uses the library.
+- PetFolio pins an old version of the popular `requests` HTTP library. Semgrep Supply Chain reports several known vulnerabilities in it, but only one is triggered by how PetFolio uses the library.
 
 **Your Task**
 
-Find the Semgrep Supply Chain finding for `requests` with the identifier **CVE-2023-32681**, and report the version that fixes it.
+- Find the Semgrep Supply Chain finding for `requests` with the identifier **CVE-2023-32681**, and report the version that fixes it.
 
-**Task Validation:** Submit a version number in the form `X.Y.Z`.
+**Task Validation:** 
+- Submit a version number in the form `X.Y.Z`.
 
 
 
@@ -62,14 +65,15 @@ Find the Semgrep Supply Chain finding for `requests` with the identifier **CVE-2
 
 **Background**
 
-Not every finding needs a human. Semgrep checks whether leaked secrets are still active, and Semgrep Assistant automatically triages findings it judges to be noise, so developers can focus on what matters.
+- Not every finding needs a human. Semgrep checks whether leaked secrets are still active, and Semgrep Assistant automatically triages findings it judges to be noise, so developers can focus on what matters.
 
 **Your Task**
 
-In the Semgrep web app, find the secrets finding for the GitHub token from Task 1. Semgrep found the token is not active. Report the **triage status** Semgrep assigned to it automatically.
+- In the Semgrep web app, find the secrets finding for the GitHub token from Task 1. Semgrep found the token is not active. Report the **triage status** Semgrep assigned to it automatically.
 
 **Getting Started**
 
-This task needs your scan results in the Semgrep platform, so make sure you have run `semgrep ci` (without `--dry-run`) at least once. Then sign in at semgrep.dev with the same Semgrep credentials.
+- This task needs your scan results in the Semgrep platform, so make sure you have run `semgrep ci` (without `--dry-run`) at least once. Then sign in at semgrep.dev with the same Semgrep credentials.
 
-**Task Validation:** Submit the status label exactly as shown.
+**Task Validation:** 
+- Submit the status label exactly as shown.
