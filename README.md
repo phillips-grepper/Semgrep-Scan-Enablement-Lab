@@ -16,21 +16,21 @@ You are a new developer for the Acme Pet Company. You have been given a last min
 
 
 
-### Task 1 — Find the Leaked Partner Token
+### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) `Task 1 — Find the Leaked Partner Token`
 
-**Background**
+  **Background**
 
-The partner-integration team rushed a shelter-roster sync into this release. A reviewer suspects a credential slipped into the code, and if it ships, anyone reading the repository can use it.
+  - The partner-integration team rushed a shelter-roster sync into this release. A reviewer suspects a credential slipped into the code, and if it ships, anyone reading the repository can use it.
 
-**Your Task**
+  **Your Task**
 
-Run a Semgrep scan of the PetFolio repository and find the hard-coded value assigned to `PARTNER_ROSTER_TOKEN`.
+  - Run a Semgrep scan of the PetFolio repository and find the hard-coded value assigned to `PARTNER_ROSTER_TOKEN`.
 
-**Task Validation:** Submit the full token value, starting with `ghp_` (40 characters).
+  **Task Validation:** Submit the full token value, starting with `ghp_` (40 characters).
 
 
 
-### Task 2 — Trace the SQL Injection Sink
+### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) `Task 2 — Trace the SQL Injection Sink`
 
 **Background**
 
@@ -44,7 +44,7 @@ Find the FastAPI SQL injection finding in `routes_pets.py` and identify the **fu
 
 
 
-### Task 3 — Find the Safe Requests Version
+### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) `Task 3 — Find the Safe Requests Version` 
 
 **Background**
 
@@ -58,7 +58,7 @@ Find the Semgrep Supply Chain finding for `requests` with the identifier **CVE-2
 
 
 
-### Task 4 — Reducing Scan Noise
+### ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) `Task 4 — Reducing Scan Noise` 
 
 **Background**
 
