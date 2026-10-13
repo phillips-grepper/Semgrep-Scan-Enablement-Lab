@@ -1,6 +1,6 @@
 """PetFolio API - database layer.
 
-######################  AWS JAM TRAINING ASSET  ################################
+######################       TRAINING ASSET     ################################
 #  This repository contains deliberately insecure code and fake, inert         #
 #  placeholder credentials for a security exercise. Isolated sandbox accounts  #
 #  only. Do not deploy, reuse, or copy any part of it.                         #
